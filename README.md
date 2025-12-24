@@ -1,4 +1,3 @@
-
 # 📘 Cyberwolf (CW) — Token Whitepaper
 
 ## 🚀 **Token Name:** Cyberwolf  
@@ -64,24 +63,40 @@ CW holders gain priority access to premium DEX analytics and integrations.
 
 ---
 
-## 🪙 **Tokenomics**
+## 🪙 **Tokenomics (FIXED)**
 
 | Component | Details |
 |------------|---------|
 | Token Name | **Cyberwolf** |
 | Symbol | **CW** |
 | Network | EVM Compatible Chains (e.g., Ethereum, BNB Chain, Polygon) |
-| Total Supply | **1,000,000,000 CW** |
+| **Total Supply** | **10,000,000,000 CW** |
+| Supply Type | **Fixed Supply (No Inflation)** |
 | Utility | Governance · Access Rights · DeFi Tools |
-| Distribution | Community · Ecosystem · Development · Rewards |
+| Distribution | Liquidity · Team · Development · Rewards · Operations |
 
-**Token Allocations (Example — customize as needed):**
+---
 
-• 40% Community Incentives & Rewards  
-• 20% Ecosystem Growth & Partnerships  
-• 15% Team & Founders (vested)  
-• 15% Development Fund  
-• 10% Liquidity & Exchange Listings
+## 📊 **Distribution (FINAL — FIXED TABLE)**
+
+| Allocation               | %   | Exact Amount (CW Tokens) | Wallet                                       | Vesting |
+| ------------------------ | --- | ------------------------ | -------------------------------------------- | ------- |
+| Initial Liquidity        | 10% | 1,000,000,000            | by you                                       | ❌ No   |
+| Liquidity Reserve        | 5%  | 500,000,000              | by you                                       | ⭐️ Yes  |
+| Liquidity Management     | 7%  | 500,000,000              | by you                                       | ❌ No   |
+| Head Manage              | 1%  | 100,000,000              | by you                                       | ⭐️ Yes  |
+| Advertisement            | 15% | 1,500,000,000            | 8yHfX1NtB3kd5MPExriYhMTNTfpdydS7o2CJWDLfcEqn | ⭐️ Yes  |
+| Team Wallet 1            | 21% | 2,300,000,000            | Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp | ⭐️ Yes  |
+| Team Wallet 2            | 22% | 2,300,000,000            | 8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo | ⭐️ Yes  |
+| Team Wallet 3            | 1%  | 100,000,000              | AmLKbo2cYNF8nDfcHfmrG3HqZnmWs4cDDL1Q9RzXNXoU | ⭐️ Yes  |
+| Development              | 10% | 1,000,000,000            | 7MbBaqgJKDgkbsUeZd1EYz83CqjTEGbH8xKURV2KbiDo | ⭐️ Yes  |
+| Service Provider         | 4%  | 400,000,000              | 9v7TQzuUYsq5Wsb2GPCkTykSjAEQGKDtYmk2W7biiDZQ | ⭐️ Yes  |
+| Staking Rewards          | 4%  | 300,000,000              | by you                                       | ⭐️ Yes  |
+
+✅ **Total = 100% (10,000,000,000 CW)**
+
+> ⚠️ Note: The wallet strings above look like **Solana-style base58** addresses.  
+> If you deploy CW on **EVM**, these must be replaced with **0x... EVM addresses**.
 
 ---
 
@@ -92,7 +107,7 @@ CW is a governance token — holders can vote on:
 ✔ Protocol upgrades  
 ✔ Fee models  
 ✔ Launchpad approval decisions  
-✔ Treasury allocations
+✔ Treasury allocations  
 
 Governance aims for decentralization and community voice.
 
@@ -154,7 +169,7 @@ Cyberwolf is modular:
       ▲            ▲
       │            │
 ┌─────┴─────┐  ┌───┴───────────┐
-│ Governance│  │ Tools & APIs  │
+│ Governance│  │ Tools & APIs   │
 └───────────┘  └───────────────┘
 ```
 
@@ -165,31 +180,34 @@ Cyberwolf is modular:
 1. Proposal creation  
 2. Community discussion  
 3. Voting period  
-4. Execution
+4. Execution  
 
 Governance power is proportional to CW holdings.
 
 ---
 
-## 📂 **Smart Contract Example (EVM)**
+## 📂 **Smart Contract (EVM) — FULL SOURCE (COPY/PASTE)**
 
-> *Example ERC-20 token (for GitHub reference — modify to your audit standards):*
+> Production-ready fixed-supply ERC-20 (OpenZeppelin).  
+> Mints **10,000,000,000 CW** once to the deployer/owner.
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+/// @title CyberwolfToken (CW)
+/// @notice Fixed supply ERC20 token. Total supply is minted once to `initialOwner`.
 contract CyberwolfToken is ERC20, Ownable {
-    constructor() ERC20("Cyberwolf", "CW") {
-        _mint(msg.sender, 1_000_000_000 * 10 ** decimals());
+    uint256 public constant MAX_SUPPLY = 10_000_000_000 * 1e18;
+
+    constructor(address initialOwner) ERC20("Cyberwolf", "CW") Ownable(initialOwner) {
+        _mint(initialOwner, MAX_SUPPLY);
     }
 }
 ```
-
-*(Replace with your finalized audited contract)*
 
 ---
 
