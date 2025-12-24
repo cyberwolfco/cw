@@ -5,18 +5,48 @@
   "image": "https://cw.today/assets/cw.png",
   "external_url": "https://cw.today",
   "attributes": [
-    { "trait_type": "Token Name", "value": "Cyberwolf" },
-    { "trait_type": "Ticker", "value": "CW" },
-    { "trait_type": "Blockchain", "value": "Solana" },
-    { "trait_type": "Standard", "value": "SPL Token" },
-    { "trait_type": "Type", "value": "Utility & Governance" },
-    { "trait_type": "Total Supply", "value": "10000000000" },
-    { "trait_type": "Supply Type", "value": "Fixed (No Inflation)" },
-    { "trait_type": "Decimals", "value": "9" }
+    {
+      "trait_type": "Token Name",
+      "value": "Cyberwolf"
+    },
+    {
+      "trait_type": "Ticker",
+      "value": "CW"
+    },
+    {
+      "trait_type": "Blockchain",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Standard",
+      "value": "SPL Token"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Utility & Governance"
+    },
+    {
+      "trait_type": "Total Supply",
+      "value": "10000000000"
+    },
+    {
+      "trait_type": "Supply Type",
+      "value": "Fixed (No Inflation)"
+    },
+    {
+      "trait_type": "Decimals",
+      "value": "9"
+    }
   ],
   "properties": {
     "category": "token",
-    "creators": null,
+    "creators": [
+      {
+        "address": "68Vh9XhePnSZSmMrK7CySPrZP67sKqZo9ApJfZ7umKmJ",
+        "verified": true,
+        "share": 100
+      }
+    ],
     "files": [
       {
         "uri": "https://cw.today/assets/cw.png",
