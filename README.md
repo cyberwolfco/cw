@@ -84,7 +84,7 @@ CW holders gain access to protocol-level incentives and priority features.
 
 | Allocation | % | Exact Amount (CW) | Wallet (Solana) | Vesting |
 |----------|---|------------------|----------------|--------|
-| Initial Liquidity | 10% | 1,000,000,000 | by you | ❌ No |
+| Initial Liquidity | 10% | 1,000,000,000 | 68Vh9XhePnSZSmMrK7CySPrZP67sKqZo9ApJfZ7umKmJ | ❌ No |
 | Liquidity Reserve | 5% | 500,000,000 | by you | ⭐️ Yes |
 | Liquidity Management | 7% | 500,000,000 | by you | ❌ No |
 | Head Manage | 1% | 100,000,000 | by you | ⭐️ Yes |
