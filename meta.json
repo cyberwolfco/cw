@@ -1,0 +1,116 @@
+{
+  "name": "Cyberwolf",
+  "symbol": "CW",
+  "description": "Cyberwolf (CW) is a Solana-native SPL utility & governance token powering DeFi utilities, liquidity systems, staking incentives, and community governance within the Cyberwolf ecosystem.",
+  "image": "https://cw.today/assets/cw.png",
+  "external_url": "https://cw.today",
+  "attributes": [
+    { "trait_type": "Token Name", "value": "Cyberwolf" },
+    { "trait_type": "Ticker", "value": "CW" },
+    { "trait_type": "Blockchain", "value": "Solana" },
+    { "trait_type": "Standard", "value": "SPL Token" },
+    { "trait_type": "Type", "value": "Utility & Governance" },
+    { "trait_type": "Total Supply", "value": "10000000000" },
+    { "trait_type": "Supply Type", "value": "Fixed (No Inflation)" },
+    { "trait_type": "Decimals", "value": "9" }
+  ],
+  "properties": {
+    "category": "token",
+    "creators": null,
+    "files": [
+      {
+        "uri": "https://cw.today/assets/cw.png",
+        "type": "image/png"
+      }
+    ],
+    "links": {
+      "website": "https://cw.today",
+      "twitter": "https://x.com/CyberWolfCo",
+      "telegram": "https://t.me/CyberwolfCo",
+      "github": "https://github.com/cyberwolfco/cw"
+    },
+    "tokenomics": {
+      "total_supply": 10000000000,
+      "decimals": 9,
+      "distribution": [
+        {
+          "allocation": "Initial Liquidity",
+          "percent": 10,
+          "amount": 1000000000,
+          "wallet": "68Vh9XhePnSZSmMrK7CySPrZP67sKqZo9ApJfZ7umKmJ",
+          "vesting": false
+        },
+        {
+          "allocation": "Liquidity Reserve",
+          "percent": 5,
+          "amount": 500000000,
+          "wallet": "8uaPQMCRa3q4kgK3miPMnaK9mdnuqWCEJqLHQMgoWNZ9",
+          "vesting": true
+        },
+        {
+          "allocation": "Liquidity Management",
+          "percent": 7,
+          "amount": 700000000,
+          "wallet": "7An4nqRmxtYbjtCr4X39Y6D9VBf9RjGPgM2kB1d1gV53",
+          "vesting": false
+        },
+        {
+          "allocation": "Head Manage",
+          "percent": 1,
+          "amount": 100000000,
+          "wallet": "GPEo5ecvCZwbx2AXKdRtVyVG6FbB8RmV8Cjjkxoy5RTD",
+          "vesting": true
+        },
+        {
+          "allocation": "Advertisement",
+          "percent": 15,
+          "amount": 1500000000,
+          "wallet": "8yHfX1NtB3kd5MPExriYhMTNTfpdydS7o2CJWDLfcEqn",
+          "vesting": true
+        },
+        {
+          "allocation": "Team Wallet 1",
+          "percent": 21,
+          "amount": 2100000000,
+          "wallet": "Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp",
+          "vesting": true
+        },
+        {
+          "allocation": "Team Wallet 2",
+          "percent": 22,
+          "amount": 2200000000,
+          "wallet": "8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo",
+          "vesting": true
+        },
+        {
+          "allocation": "Team Wallet 3",
+          "percent": 1,
+          "amount": 100000000,
+          "wallet": "AmLKbo2cYNF8nDfcHfmrG3HqZnmWs4cDDL1Q9RzXNXoU",
+          "vesting": true
+        },
+        {
+          "allocation": "Development",
+          "percent": 10,
+          "amount": 1000000000,
+          "wallet": "7MbBaqgJKDgkbsUeZd1EYz83CqjTEGbH8xKURV2KbiDo",
+          "vesting": true
+        },
+        {
+          "allocation": "Service Provider",
+          "percent": 4,
+          "amount": 400000000,
+          "wallet": "9v7TQzuUYsq5Wsb2GPCkTykSjAEQGKDtYmk2W7biiDZQ",
+          "vesting": true
+        },
+        {
+          "allocation": "Staking Rewards",
+          "percent": 4,
+          "amount": 400000000,
+          "wallet": "9cNXEhDDqPZCtzy8WrKqvcud1X67QUNYwesMLP1grP58",
+          "vesting": true
+        }
+      ]
+    }
+  }
+}
