@@ -1,234 +1,147 @@
-# 📘 Cyberwolf (CW) — Token Whitepaper
+# 📘 Cyberwolf (CW) — Token Whitepaper (Solana)
 
 ## 🚀 **Token Name:** Cyberwolf  
 **Ticker:** CW  
 **Type:** Utility & Governance Token  
-**Ecosystem:** Smart Contracts · DeFi · DEX Tools · On-chain Utilities
+**Blockchain:** **Solana**  
+**Token Standard:** **SPL Token**  
+**Ecosystem:** DeFi · DEX Tools · On-chain Utilities · Governance
 
 ---
 
 ## 📌 **Abstract**
 
-Cyberwolf (CW) is a next-generation blockchain token designed to empower decentralised financial ecosystems with advanced smart contract tools, DeFi utilities, and decentralized exchange (DEX) integrations. Built for developers, traders, and innovators, CW is the native asset that fuels governance, access rights, and utility programs across the Cyberwolf ecosystem.
+Cyberwolf (CW) is a next-generation **Solana-native SPL token** designed to power decentralized financial applications, liquidity systems, and governance mechanisms within the Cyberwolf ecosystem.
 
-Cyberwolf is more than a token — it’s a modular toolkit for DeFi innovation, cross-protocol interoperability, and community-driven decentralization.
+Built specifically for **Solana’s high-performance architecture**, CW enables fast, low-cost, and scalable on-chain utilities such as staking, liquidity management, governance voting, and ecosystem incentives.
+
+Cyberwolf is not just a token — it is a **core economic layer** for decentralized tooling, protocol coordination, and community-driven growth on Solana.
 
 ---
 
 ## 🌐 Social & Official Links
 
-📌 **Telegram:** https://t.me/CyberwolfCo  
-📌 **X (Twitter):** https://x.com/CyberWolfCo  
-📌 **GitHub:** https://github.com/cyberwolfco/cw
+- **Website:** https://cw.today  
+- **Telegram:** https://t.me/CyberwolfCo  
+- **X (Twitter):** https://x.com/CyberWolfCo  
+- **GitHub:** https://github.com/cyberwolfco/cw  
 
 ---
 
 ## 💡 **Core Features**
 
-### 🧠 Smart Contract Toolkit
-Cyberwolf provides a standardized library of audited smart contract templates:
+### 🧠 Solana Smart-Contract Tooling
+Cyberwolf is designed to integrate with Solana programs such as:
 
-• Yield farming contracts  
-• Liquidity mining modules  
-• Vesting & timelock contracts  
-• Modular DeFi composable libraries
+- SPL Token utilities  
+- Vesting & timelock programs  
+- Staking & reward distribution programs  
+- DAO & governance programs  
 
-Developers can build, extend, and deploy secure contracts with minimal friction.
-
----
-
-### ⚙️ DeFi Programs & Utilities
-
-Cyberwolf utility programs include:
-
-✔ Vault automation  
-✔ Auto-harvest yield strategies  
-✔ Gas optimization tools  
-✔ Cross-protocol asset routing
-
-These features aim to reduce complexity while maximizing capital efficiency.
+All components leverage Solana’s account-based execution model.
 
 ---
 
-### 📊 DEX Integrations & Tools
+### ⚙️ DeFi Utilities
 
-Cyberwolf unlocks advanced decentralized exchange features:
+CW supports multiple on-chain use cases:
 
-• Custom swap routing  
-• Limit/stop order frameworks  
-• Liquidity provision dashboards  
-• On-chain trading insights
-
-CW holders gain priority access to premium DEX analytics and integrations.
+✔ Staking & reward incentives  
+✔ Liquidity provisioning & management  
+✔ Treasury & reserve control  
+✔ Ecosystem funding & grants  
 
 ---
 
-## 🪙 **Tokenomics (FIXED)**
+### 📊 DEX & Liquidity Integrations
+
+Cyberwolf is designed for integration with Solana DEXs:
+
+- AMM liquidity pools  
+- Liquidity incentive programs  
+- Trading analytics & dashboards  
+
+CW holders gain access to protocol-level incentives and priority features.
+
+---
+
+## 🪙 **Tokenomics (FINAL — SOLANA)**
 
 | Component | Details |
-|------------|---------|
+|---------|--------|
 | Token Name | **Cyberwolf** |
 | Symbol | **CW** |
-| Network | EVM Compatible Chains (e.g., Ethereum, BNB Chain, Polygon) |
+| Blockchain | **Solana** |
+| Token Standard | **SPL Token** |
 | **Total Supply** | **10,000,000,000 CW** |
 | Supply Type | **Fixed Supply (No Inflation)** |
-| Utility | Governance · Access Rights · DeFi Tools |
-| Distribution | Liquidity · Team · Development · Rewards · Operations |
+| Decimals | 9 |
+| Utility | Governance · Staking · Liquidity · Ecosystem |
 
 ---
 
-## 📊 **Distribution (FINAL — FIXED TABLE)**
+## 📊 **Token Distribution (FINAL & FIXED)**
 
-| Allocation               | %   | Exact Amount (CW Tokens) | Wallet                                       | Vesting |
-| ------------------------ | --- | ------------------------ | -------------------------------------------- | ------- |
-| Initial Liquidity        | 10% | 1,000,000,000            | by you                                       | ❌ No   |
-| Liquidity Reserve        | 5%  | 500,000,000              | by you                                       | ⭐️ Yes  |
-| Liquidity Management     | 7%  | 500,000,000              | by you                                       | ❌ No   |
-| Head Manage              | 1%  | 100,000,000              | by you                                       | ⭐️ Yes  |
-| Advertisement            | 15% | 1,500,000,000            | 8yHfX1NtB3kd5MPExriYhMTNTfpdydS7o2CJWDLfcEqn | ⭐️ Yes  |
-| Team Wallet 1            | 21% | 2,300,000,000            | Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp | ⭐️ Yes  |
-| Team Wallet 2            | 22% | 2,300,000,000            | 8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo | ⭐️ Yes  |
-| Team Wallet 3            | 1%  | 100,000,000              | AmLKbo2cYNF8nDfcHfmrG3HqZnmWs4cDDL1Q9RzXNXoU | ⭐️ Yes  |
-| Development              | 10% | 1,000,000,000            | 7MbBaqgJKDgkbsUeZd1EYz83CqjTEGbH8xKURV2KbiDo | ⭐️ Yes  |
-| Service Provider         | 4%  | 400,000,000              | 9v7TQzuUYsq5Wsb2GPCkTykSjAEQGKDtYmk2W7biiDZQ | ⭐️ Yes  |
-| Staking Rewards          | 4%  | 300,000,000              | by you                                       | ⭐️ Yes  |
+| Allocation | % | Exact Amount (CW) | Wallet (Solana) | Vesting |
+|----------|---|------------------|----------------|--------|
+| Initial Liquidity | 10% | 1,000,000,000 | by you | ❌ No |
+| Liquidity Reserve | 5% | 500,000,000 | by you | ⭐️ Yes |
+| Liquidity Management | 7% | 500,000,000 | by you | ❌ No |
+| Head Manage | 1% | 100,000,000 | by you | ⭐️ Yes |
+| Advertisement | 15% | 1,500,000,000 | 8yHfX1NtB3kd5MPExriYhMTNTfpdydS7o2CJWDLfcEqn | ⭐️ Yes |
+| Team Wallet 1 | 21% | 2,300,000,000 | Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp | ⭐️ Yes |
+| Team Wallet 2 | 22% | 2,300,000,000 | 8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo | ⭐️ Yes |
+| Team Wallet 3 | 1% | 100,000,000 | AmLKbo2cYNF8nDfcHfmrG3HqZnmWs4cDDL1Q9RzXNXoU | ⭐️ Yes |
+| Development | 10% | 1,000,000,000 | 7MbBaqgJKDgkbsUeZd1EYz83CqjTEGbH8xKURV2KbiDo | ⭐️ Yes |
+| Service Provider | 4% | 400,000,000 | 9v7TQzuUYsq5Wsb2GPCkTykSjAEQGKDtYmk2W7biiDZQ | ⭐️ Yes |
+| Staking Rewards | 4% | 300,000,000 | by you | ⭐️ Yes |
 
-✅ **Total = 100% (10,000,000,000 CW)**
+✅ **Total Distribution = 100% (10,000,000,000 CW)**
 
-> ⚠️ Note: The wallet strings above look like **Solana-style base58** addresses.  
-> If you deploy CW on **EVM**, these must be replaced with **0x... EVM addresses**.
+---
+
+## 🧾 **Vesting Policy**
+
+Vested allocations are enforced using Solana vesting programs and time-locked token accounts with linear unlock schedules.
 
 ---
 
 ## 🗳 **Governance**
 
-CW is a governance token — holders can vote on:
-
-✔ Protocol upgrades  
-✔ Fee models  
-✔ Launchpad approval decisions  
-✔ Treasury allocations  
-
-Governance aims for decentralization and community voice.
+CW is a governance token on Solana.  
+Holders can vote on protocol upgrades, treasury usage, and ecosystem decisions.
 
 ---
 
-## 🛡️ **Security & Audits**
+## 🛡️ **Security**
 
-Security is paramount. All core contracts will undergo:
-
-✔ Professional audits  
-✔ Public audit reports  
-✔ Bug bounty programs  
-✔ Continuous monitoring
+✔ Fixed supply  
+✔ Mint authority revoked after setup  
+✔ On-chain transparency  
+✔ Audit-ready design  
 
 ---
 
 ## ⚙️ **Roadmap**
 
 | Phase | Milestones |
-|--------|------------|
-| Q1 | Project launch · Token issuance · Website |
-| Q2 | Smart contract toolkit release · Audit completion |
-| Q3 | DEX integration & beta tools · Liquidity programs |
-| Q4 | Full governance launch · Cross-chain expansions |
-
-*(Customize as project evolves)*
-
----
-
-## 📌 **Use Cases**
-
-### 🧑‍💻 Developers  
-Instant access to modular contract libraries and production-ready templates.
-
-### 📈 Traders  
-DEX analytics, advanced swap features, and on-chain automation tools.
-
-### 🏆 Community  
-Earn CW through participation, testing, and governance.
-
----
-
-## 📑 **Technical Architecture**
-
-Cyberwolf is modular:
-
-```
-┌─────────┐
-│  CW Token  │
-└─────▲────┘
-      │
-      │
-┌─────┴─────────────────────────────┐
-│ Core Protocol Modules             │
-│  • Contract Templates             │
-│  • DeFi Strategy Executors        │
-│  • DEX Routing & Analytics        │
-└───────────────────────────────────┘
-      ▲            ▲
-      │            │
-┌─────┴─────┐  ┌───┴───────────┐
-│ Governance│  │ Tools & APIs   │
-└───────────┘  └───────────────┘
-```
-
----
-
-## 📜 **Governance Process Flow**
-
-1. Proposal creation  
-2. Community discussion  
-3. Voting period  
-4. Execution  
-
-Governance power is proportional to CW holdings.
-
----
-
-## 📂 **Smart Contract (EVM) — FULL SOURCE (COPY/PASTE)**
-
-> Production-ready fixed-supply ERC-20 (OpenZeppelin).  
-> Mints **10,000,000,000 CW** once to the deployer/owner.
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-
-/// @title CyberwolfToken (CW)
-/// @notice Fixed supply ERC20 token. Total supply is minted once to `initialOwner`.
-contract CyberwolfToken is ERC20, Ownable {
-    uint256 public constant MAX_SUPPLY = 10_000_000_000 * 1e18;
-
-    constructor(address initialOwner) ERC20("Cyberwolf", "CW") Ownable(initialOwner) {
-        _mint(initialOwner, MAX_SUPPLY);
-    }
-}
-```
+|-----|-----------|
+| Phase 1 | SPL token creation · Distribution |
+| Phase 2 | Vesting & staking |
+| Phase 3 | Liquidity integrations |
+| Phase 4 | DAO governance |
+| Phase 5 | Ecosystem expansion |
 
 ---
 
 ## 📌 **Legal & Compliance**
 
-Cyberwolf does NOT constitute financial advice.  
-Users should conduct their own research (DYOR).  
-Compliance will follow applicable local regulations.
-
----
-
-## 📍 **Contact & Community**
-
-Join our discussions, updates, and project announcements:
-
-📌 Telegram: https://t.me/CyberwolfCo  
-📌 X (Twitter): https://x.com/CyberWolfCo  
-📌 GitHub: https://github.com/cyberwolfco/cw
+Cyberwolf (CW) is a utility token.  
+This document does **not** constitute financial advice.  
+Users must conduct their own research (DYOR).
 
 ---
 
 ## 📎 **License**
 
-This document and all published materials are licensed under the **MIT License** unless otherwise specified.
+MIT License
