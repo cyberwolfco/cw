@@ -82,19 +82,60 @@ CW holders gain access to protocol-level incentives and priority features.
 
 ## 📊 **Token Distribution (FINAL & FIXED)**
 
+# 📊 Token Allocation (Final & Fixed)
+
+**Token Name:** Cyberwolf (CW)  
+**Network:** Solana  
+**Total Supply:** `10,000,000,000 CW`
+
+This document defines the **final, immutable token distribution** for the Cyberwolf ecosystem.  
+All percentages and amounts are mathematically consistent and sum to **100%** of total supply.
+
+---
+
+## 🧮 Allocation Table
+
 | Allocation | % | Exact Amount (CW) | Wallet (Solana) | Vesting |
-|----------|---|------------------|----------------|--------|
+|-----------|---|------------------|-----------------|---------|
 | Initial Liquidity | 10% | 1,000,000,000 | 68Vh9XhePnSZSmMrK7CySPrZP67sKqZo9ApJfZ7umKmJ | ❌ No |
 | Liquidity Reserve | 5% | 500,000,000 | 8uaPQMCRa3q4kgK3miPMnaK9mdnuqWCEJqLHQMgoWNZ9 | ⭐️ Yes |
-| Liquidity Management | 7% | 500,000,000 | 7An4nqRmxtYbjtCr4X39Y6D9VBf9RjGPgM2kB1d1gV53 | ❌ No |
+| Liquidity Management | 7% | 700,000,000 | 7An4nqRmxtYbjtCr4X39Y6D9VBf9RjGPgM2kB1d1gV53 | ❌ No |
 | Head Manage | 1% | 100,000,000 | GPEo5ecvCZwbx2AXKdRtVyVG6FbB8RmV8Cjjkxoy5RTD | ⭐️ Yes |
 | Advertisement | 15% | 1,500,000,000 | 8yHfX1NtB3kd5MPExriYhMTNTfpdydS7o2CJWDLfcEqn | ⭐️ Yes |
-| Team Wallet 1 | 21% | 2,300,000,000 | Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp | ⭐️ Yes |
-| Team Wallet 2 | 22% | 2,300,000,000 | 8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo | ⭐️ Yes |
+| Team Wallet 1 | 21% | 2,100,000,000 | Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp | ⭐️ Yes |
+| Team Wallet 2 | 22% | 2,200,000,000 | 8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo | ⭐️ Yes |
 | Team Wallet 3 | 1% | 100,000,000 | AmLKbo2cYNF8nDfcHfmrG3HqZnmWs4cDDL1Q9RzXNXoU | ⭐️ Yes |
 | Development | 10% | 1,000,000,000 | 7MbBaqgJKDgkbsUeZd1EYz83CqjTEGbH8xKURV2KbiDo | ⭐️ Yes |
 | Service Provider | 4% | 400,000,000 | 9v7TQzuUYsq5Wsb2GPCkTykSjAEQGKDtYmk2W7biiDZQ | ⭐️ Yes |
-| Staking Rewards | 4% | 300,000,000 | 9cNXEhDDqPZCtzy8WrKqvcud1X67QUNYwesMLP1grP58 | ⭐️ Yes |
+| Staking Rewards | 4% | 400,000,000 | 9cNXEhDDqPZCtzy8WrKqvcud1X67QUNYwesMLP1grP58 | ⭐️ Yes |
+| **TOTAL** | **100%** | **10,000,000,000** | — | — |
+
+---
+
+## 🔐 Vesting Policy
+
+- All **team, development, advertisement, staking, and reserve wallets** are subject to vesting.
+- **Initial Liquidity** and **Liquidity Management** wallets are excluded from vesting.
+- Vesting is enforced via **on-chain Solana vesting contracts**.
+
+---
+
+## 📌 Notes
+
+- This allocation is **final and non-modifiable**
+- Wallet addresses are publicly disclosed for transparency
+- No minting or inflation beyond the fixed supply
+
+---
+
+## 🌐 Official Links
+
+- Website: https://cw.today
+
+---
+
+© Cyberwolf — All rights reserved.
+
 
 ✅ **Total Distribution = 100% (10,000,000,000 CW)**
 
