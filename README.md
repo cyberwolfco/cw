@@ -102,8 +102,8 @@ All percentages and amounts are mathematically consistent and sum to **100%** of
 | Liquidity Management | 7% | 700,000,000 | 7An4nqRmxtYbjtCr4X39Y6D9VBf9RjGPgM2kB1d1gV53 | ❌ No |
 | Head Manage | 1% | 100,000,000 | GPEo5ecvCZwbx2AXKdRtVyVG6FbB8RmV8Cjjkxoy5RTD | ⭐️ Yes |
 | Advertisement | 15% | 1,500,000,000 | 8yHfX1NtB3kd5MPExriYhMTNTfpdydS7o2CJWDLfcEqn | ⭐️ Yes |
-| Team Wallet 1 | 21% | 2,100,000,000 | Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp | ⭐️ Yes |
-| Team Wallet 2 | 22% | 2,200,000,000 | 8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo | ⭐️ Yes |
+| Team Wallet 1 | 20% | 2,000,000,000 | Cz9wmYH5cmC4agN2tcvSVDeGCs81vo2zsp7zDhAPWyrp | ⭐️ Yes |
+| Team Wallet 2 | 23% | 2,300,000,000 | 8CFFqQtZuTysFu9edpdv2sSVLk3oARHFwECznwWV1HGo | ⭐️ Yes |
 | Team Wallet 3 | 1% | 100,000,000 | AmLKbo2cYNF8nDfcHfmrG3HqZnmWs4cDDL1Q9RzXNXoU | ⭐️ Yes |
 | Development | 10% | 1,000,000,000 | 7MbBaqgJKDgkbsUeZd1EYz83CqjTEGbH8xKURV2KbiDo | ⭐️ Yes |
 | Service Provider | 4% | 400,000,000 | 9v7TQzuUYsq5Wsb2GPCkTykSjAEQGKDtYmk2W7biiDZQ | ⭐️ Yes |
